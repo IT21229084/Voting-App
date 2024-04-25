@@ -45,8 +45,8 @@
 
 - **Create voting app pod and service:**
   ```bash
- kubectl create -f voting-app-pod.yaml
- kubectl create -f voting-app-service.yaml
+  kubectl create -f voting-app-pod.yaml
+  kubectl create -f voting-app-service.yaml
 
 - **Create Redis pod and service:**
   ```bash
@@ -62,10 +62,6 @@
   ```bash
   kubectl create -f result-pod.yaml
   kubectl create -f result-service.yaml
-
-- **List all services:**
-  ```bash
-  kubectl get services
 
 - **Create worker pod:**
   ```bash
@@ -98,14 +94,3 @@
 - **Resource Cleanup:**
   ```bash
   kubectl delete -f .
-
-
-
-
-
-  
- 
-
-  
-  
-
